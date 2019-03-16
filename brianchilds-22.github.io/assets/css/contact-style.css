@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(concrete_seamless.png);
+    font-size: 18px;
+    line-height: 34px;
+    color: #777;
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+h1, h2, h3, p {
+    margin-bottom:  20px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #4aaaa5;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2, h3, {
+    font-size: 22px;
+}
+
+/* header */
+#masthead  {
+    background-color: #ffffff;
+    z-index: 10;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+
+    position: fixed;
+}
+
+#logo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    height: 90px;
+    width: 250px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    color: #fff;
+    line-height: 90px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}   
+
+nav a   {
+    color:#999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #cccccc;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+#main-container {
+    padding: 7px;
+    width: 100%;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    background: #ffffff;
+}
+
+/*.container  {
+    width: 960px;
+    height: 550px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    padding: 0 px;
+    color: #4aaaa5;
+}
+*/
+
+label   {
+    color: #666666
+}
+
+#contact {
+    margin: 0 auto;
+    padding: 25px;
+   
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 5px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+
+  input[type=submit] {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 5px 0px 5px 0px;
+    border: none;
+    cursor: pointer;
+  }
+
+  textarea {
+      width: 910px;
+      height: 200px;
+      margin: 0 auto;
+  }
+
+  .Footer {
+    background-color: #666666;
+    padding: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #ffff;
+    border-top: 8px solid #4aaaa5;
+}
